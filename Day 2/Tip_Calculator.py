@@ -1,10 +1,15 @@
 """
-Description:
-We're going to build a tip calculator.
-If the bill was $150.00, split between 5 people, with 12% tip.
-Each person should pay:
-(150.00 / 5) * 1.12 = 33.6
-After formatting the result to 2 decimal places = 33.60
+Topics Covered:
+1. Data types
+2. Type error, checking, and data type conversion
+3. Mathematical operations
+4. Number manipulation
+
+Project Description:
+1. We're going to build a tip calculator.
+2. If the bill was $150.00, split between 5 people, with 12% tip.
+3. Each person should pay: (150.00 / 5) * 1.12 = 33.6
+5. After formatting the result to 2 decimal places = 33.60
 
 Completed: 11/18/2024
 """
