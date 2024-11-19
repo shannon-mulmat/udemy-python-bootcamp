@@ -5,7 +5,7 @@ Description:
 3. Ask the user for the name of a pet and store it in a variable.
 4. Combine the name of their city and pet and show them their band name.
 
-Completed 11/16/2024
+Completed: 11/16/2024
 """
 
 print("Welcome to the Band Name Generator.")
