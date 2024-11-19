@@ -1,7 +1,7 @@
 """
 Topics Covered:
 1. If/else
-2. 
+2. Modulo operator
 3. 
 4. 
 
