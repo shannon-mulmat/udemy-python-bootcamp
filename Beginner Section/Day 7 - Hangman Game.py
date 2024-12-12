@@ -13,7 +13,7 @@ Project Description:
    If the guess is wrong, the user loses a life. Either way, they are asked to guess another letter. Example "c _ _ _ _", "c _ _ e _", "c _ m e _", etc.
 4. If the user guesses all letters in the word before they lose all their lives, they win! Otherwuse, they lose.
 
-Completed: 
+Completed: 12/12/2024
 """
 import random
 from hangman_words import word_list
