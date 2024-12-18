@@ -41,6 +41,6 @@ while go_again == 'yes':
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
 
-    caesar(original_text=text, shift_amount=shift, encode_or_decode=direction)
+    caesar(text, shift, direction)
 
     go_again = input("Type 'yes' if you want to go again. Otherwise, type 'no'.\n").lower()
