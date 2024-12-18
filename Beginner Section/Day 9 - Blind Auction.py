@@ -1,4 +1,15 @@
+"""
+Topics Covered:
+1. Dictionaries
+2. Nested lists and dictionaries
 
+Project Description:
+1. Ask the user for their name and bid amount, add these to a dictionary with "name" as the key and "bid amount" as the value.
+2. Ask if there are other bidders, if yes clear the screen and ask the next bidder for their name and bid amount, add these to the dictionary.
+3. If there are no more bidders, search through the final dictionary for the highest bidder, and print out their name and their bid amount.
+
+Completed: 12/18/2024
+"""
 from art import logo
 
 print(logo)
