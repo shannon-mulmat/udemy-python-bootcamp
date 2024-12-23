@@ -96,6 +96,9 @@ while play_game == 'y':
 
     while sum(dealer_hand) < 17:
         dealer_hand.append(deal_card())
+        if sum(dealer_hand) > 21:
+            if 11 in dealer_hand:
+                replace_11_with_1(dealer_hand)
 
     if sum(dealer_hand) == sum(player_hand) and sum(player_hand) <= 21:
         print_score(player_hand, dealer_hand, continue_playing)
