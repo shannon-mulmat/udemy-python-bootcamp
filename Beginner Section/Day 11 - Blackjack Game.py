@@ -46,7 +46,7 @@ def print_score(player_cards, dealer_cards, continue_game):
 
 def replace_11_with_1(hand):
     """
-    Replaces 11 with 1 (the ace card)
+    Replaces 11 with 1, mimicking the behavior of the ace
     :param hand: List, the list of cards being checked for an 11
     :return: List, the same list that was passed in, but 11 will be replaced with 1
     """
