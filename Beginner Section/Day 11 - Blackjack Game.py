@@ -29,12 +29,10 @@ def print_score(player_cards, dealer_cards, continue_game):
     Prints the current hand for the player and the player's total score, along
     with either the dealer's first card (if the game is still going), or the
     current hand for the dealer and the dealer's total score
-
     :param player_cards: List, the cards that the player possesses
     :param dealer_cards: List, the cards that the dealer possesses
     :param continue_game: Boolean, True or False if the game is continuing,
     determines which print statements are returned
-
     :return: String, two print statements, one for the player's whole hand
     and one for the dealer: only the dealer's first card if the game is
     still going, or their whole hand if the game is over
@@ -49,9 +47,7 @@ def print_score(player_cards, dealer_cards, continue_game):
 def replace_11_with_1(hand):
     """
     Replaces 11 with 1 (the ace card)
-
     :param hand: List, the list of cards being checked for an 11
-
     :return: List, the same list that was passed in, but 11 will be replaced with 1
     """
     hand.remove(11)
