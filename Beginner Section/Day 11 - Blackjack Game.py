@@ -3,6 +3,7 @@ Capstone Project
 
 Project Description:
 1. Using the rules of Blackjack, create the game in a python file
+2. This game will be simplified, assuming a limitless deck of cards instead of a 52-card deck
 
 Completed: 12/23/2024
 """
