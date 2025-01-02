@@ -7,7 +7,7 @@ Topics Covered:
 
 Project Description:
 1. The computer chooses a random number between 1 and 100
-2. The user chooses a difficulty level, easy for 10 guess attempts and hard for 5 guesse attempts.
+2. The user chooses a difficulty level, "easy" for 10 guess attempts and "hard" for 5 guess attempts.
 3. The user guesses what the computer's number is:
     If the user guesses too high or too low, the program tells them "too high" or "too low", deducts a guess attempt, and if the user still has guess attempts it prompts them to guess again.
     If the user guesses correctly before they run out of guess attempts, they win.
