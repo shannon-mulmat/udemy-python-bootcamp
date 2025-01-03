@@ -5,6 +5,7 @@ Topics Covered:
 3. While loops
 
 Project Description:
+********** NO PYTHON SCRIPT FOR THIS PROJECT **********
 1. Reeborg's World
 https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Alone&url=worlds%2Ftutorial_en%2Falone.json
 
