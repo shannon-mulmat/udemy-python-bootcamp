@@ -19,7 +19,7 @@ def resource_report():
     print(f"Water: {resources['water']}mL")
     print(f"Milk: {resources['milk']}mL")
     print(f"Coffee: {resources['coffee']}mg")
-    print("Money: $", resources['money'])
+    print(f"Money: ${resources['money']}")
 
 def make_espresso():
     resources['water'] -= ESPRESSO_WATER
