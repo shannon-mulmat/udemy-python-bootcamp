@@ -21,25 +21,22 @@ def resource_report():
     print(f"Coffee: {resources['coffee']}mg")
     print(f"Money: ${resources['money']}")
 
-def make_espresso():
-    resources['water'] -= ESPRESSO_WATER
-    resources['coffee'] -= ESPRESSO_COFFEE
-    resources['money'] += ESPRESSO_COST
-    print("Here is your espresso, enjoy!")
-
-def make_latte():
-    resources['water'] -= LATTE_WATER
-    resources['milk'] -= LATTE_MILK
-    resources['coffee'] -= LATTE_COFFEE
-    resources['money'] += LATTE_COST
-    print("Here is your latte, enjoy!")
-
-def make_cappuccino():
-    resources['water'] -= CAPPUCCINO_WATER
-    resources['milk'] -= CAPPUCCINO_MILK
-    resources['coffee'] -= CAPPUCCINO_COFFEE
-    resources['money'] += CAPPUCCINO_COST
-    print("Here is your cappuccino, enjoy!")
+def make_drink(drink_order):
+    if drink_order == 'espresso':
+        resources['water'] -= ESPRESSO_WATER
+        resources['coffee'] -= ESPRESSO_COFFEE
+        resources['money'] += ESPRESSO_COST
+    elif drink_order == 'latte':
+        resources['water'] -= LATTE_WATER
+        resources['milk'] -= LATTE_MILK
+        resources['coffee'] -= LATTE_COFFEE
+        resources['money'] += LATTE_COST
+    elif drink_order == 'cappuccino':
+        resources['water'] -= CAPPUCCINO_WATER
+        resources['milk'] -= CAPPUCCINO_MILK
+        resources['coffee'] -= CAPPUCCINO_COFFEE
+        resources['money'] += CAPPUCCINO_COST
+    print(f"Here is your {drink_order}, enjoy!")
 
 def calculate_coins():
     print("Please insert coins.")
@@ -76,7 +73,7 @@ def coffee_machine():
                     customer_coin_total = calculate_coins()
                     if customer_coin_total >= ESPRESSO_COST:
                         calculate_change(customer_coin_total, ESPRESSO_COST)
-                        make_espresso()
+                        make_drink(order)
                     else:
                         print("Sorry, that is not enough money. Money refunded.")
                 else:
@@ -90,7 +87,7 @@ def coffee_machine():
                         customer_coin_total = calculate_coins()
                         if customer_coin_total >= LATTE_COST:
                             calculate_change(customer_coin_total, LATTE_COST)
-                            make_latte()
+                            make_drink(order)
                         else:
                             print("Sorry, that is not enough money. Money refunded.")
                     else:
@@ -106,7 +103,7 @@ def coffee_machine():
                         customer_coin_total = calculate_coins()
                         if customer_coin_total >= CAPPUCCINO_COST:
                             calculate_change(customer_coin_total, CAPPUCCINO_COST)
-                            make_cappuccino()
+                            make_drink(order)
                         else:
                             print("Sorry, that is not enough money. Money refunded.")
                     else:
