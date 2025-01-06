@@ -39,6 +39,9 @@ def make_drink(drink_order):
     print(f"Here is your {drink_order}, enjoy!")
 
 def calculate_coins():
+    """
+    Returns the total amount of money deposited by the customer.
+    """
     print("Please insert coins.")
     quarters = int(input("How many quarters?: "))
     dimes = int(input("How many dimes?: "))
@@ -52,6 +55,9 @@ def calculate_coins():
     return quarter_total + dime_total + nickle_total + penny_total
 
 def calculate_change(customer_coin_total, drink_cost):
+    """
+    If the customer deposits too much money, returns their change. Else, returns nothing.
+    """
     customer_change = round(customer_coin_total - drink_cost, 2)
     if customer_change > 0:
         print(f"Here is your change, ${customer_change}")
