@@ -16,9 +16,9 @@ CAPPUCCINO_COFFEE = menu['cappuccino']['ingredients']['coffee']
 CAPPUCCINO_COST = menu['cappuccino']['cost']
 
 def resource_report():
-    print("Water:", resources['water'])
-    print("Milk:", resources['milk'])
-    print("Coffee:", resources['coffee'])
+    print("Water:", resources['water'], 'mL')
+    print("Milk:", resources['milk'], 'mL')
+    print("Coffee:", resources['coffee'], 'mL')
     print("Money: $", resources['money'])
 
 def make_espresso():
