@@ -119,6 +119,6 @@ def coffee_machine():
             print("Coffee machine is shutting down.")
             machine_on = False
         else:
-            print('Incorrect order. Please try again.')
+            print("Sorry, we don't make that.")
 
 coffee_machine()
