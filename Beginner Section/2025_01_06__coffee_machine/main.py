@@ -1,3 +1,15 @@
+"""
+Project Description:
+1. Build a coin operated coffee machine that has a list of drinks it can make, a limited amount of resources, and a method of accepting coins and giving change.
+    - Prompt user by asking what they would like to order, providing the list of possible drinks.
+    - If the user enters "off", turn the machine off.
+    - If the user enters "report", print out the remaining resources and the amount of money in the machine.
+    - Check if the resources are sufficient to make the drink.
+    - Check if the customer gave enough coins.
+    - Make the coffee.
+
+Completed: 1/6/2025
+"""
 from coffee_data import menu, resources
 from art import logo
 
