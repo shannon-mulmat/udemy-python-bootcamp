@@ -1,6 +1,6 @@
 """
 Project Description:
-1. Recreate the coffee machine program using the provided files which contain classes created by the teacher for running the coffee machine.
+1. Recreate the coffee machine program using OOP - the provided files contain classes created by the teacher for running the coffee machine.
 
 Completed: 1/9/2025
 """
