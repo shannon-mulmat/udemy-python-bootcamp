@@ -2,7 +2,7 @@
 Project Description:
 1. Recreate the coffee machine program using the provided files which contain classes created by the teacher for running the coffee machine.
 
-Completed: 1/7/2025
+Completed: 1/9/2025
 """
 from menu import Menu
 from coffee_maker import CoffeeMaker
