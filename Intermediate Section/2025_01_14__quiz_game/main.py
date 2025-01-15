@@ -1,5 +1,7 @@
 """
 Project Description:
+1. Use OOP to create a Quiz Game program that has a set list of questions and answers. The program asks the user each question in turn, and tracks when they answer correctly.
+
 Completed: 1/14/2015
 """
 from question_model import Question
