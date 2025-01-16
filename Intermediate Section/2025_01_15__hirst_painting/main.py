@@ -2,7 +2,8 @@
 Project Description:
 1. Forge a Hirst painting using the turtle class
     - Use a real Hirst painting to generate your color palette in RGB tuples
-    - Have the turtle draw a dot with a random color from the palette, go ahead 50 paces, then draw another dot with another random color from the palette
+    - Have the turtle draw a dot with a random color from the palette, go ahead 50 paces,
+      then draw another dot with another random color from the palette
     - The dot should have a radius of 20
     - The painting should be 10 dots by 10 dots
 
