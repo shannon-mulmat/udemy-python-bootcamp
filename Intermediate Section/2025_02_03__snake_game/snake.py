@@ -26,6 +26,13 @@ class Snake:
     def extend(self):
         self.add_segment(self.segments[-1].position())
 
+    def reset(self):
+        for segment in self.segments:
+            segment.hideturtle()
+        self.segments.clear()
+        self.create_snake()
+        self.head = self.segments[0]
+
     def move(self):
         # range() using start, stop, step
         # start at the last turtle in the line
