@@ -2,7 +2,11 @@
 Project Description:
 - Build the classic Snake game using turtles
 
+Updates:
+3/5/2025 - Added a high score and used file reading/writing to save the high score even after the program is closed
+
 Completed: 2/3/2025
+UPDATED: 3/5/2025
 """
 from turtle import Screen
 from snake import Snake
@@ -41,13 +45,13 @@ while game_is_on:
 
     # Detect collision with wall
     if snake.head.xcor() > 290 or snake.head.xcor() < -290 or snake.head.ycor() > 290 or snake.head.ycor() < -290:
-        scoreboard.game_over()
-        game_is_on = False
+        scoreboard.reset()
+        snake.reset()
 
     # Detect collision with tail
     for segment in snake.segments[1:]:
         if snake.head.distance(segment) < 10:
-            scoreboard.game_over()
-            game_is_on = False
+            scoreboard.reset()
+            snake.reset()
 
 screen.exitonclick()
