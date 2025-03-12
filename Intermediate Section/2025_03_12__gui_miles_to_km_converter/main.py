@@ -1,6 +1,6 @@
 """
 Topics Covered:
-1. TKinter
+1. Tkinter
 2. Widgets
 3. *args
 4. **kwargs
