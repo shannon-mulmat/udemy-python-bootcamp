@@ -14,21 +14,19 @@ UPDATED: 3/18/2025
 - Added error handling (try/except/else)
 """
 import pandas as pd
-"""
-# Original code:
+
 nato_df = pd.read_csv("nato_phonetic_alphabet.csv")
 nato_dict = {row.letter:row.code for index, row in nato_df.iterrows()}
 print(nato_dict)
 
+"""
+# Original code:
 word = input("Enter a word: ").upper()
 word_list = [nato_dict[letter] for letter in word]
 print(word_list)
 """
-# Updated code:
-nato_df = pd.read_csv("nato_phonetic_alphabet.csv")
-nato_dict = {row.letter:row.code for index, row in nato_df.iterrows()}
-print(nato_dict)
 
+# Updated code:
 def generate_phonetic():
     word = input("Enter a word: ").upper()
     try:
