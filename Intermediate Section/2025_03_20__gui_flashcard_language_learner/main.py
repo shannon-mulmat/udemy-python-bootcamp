@@ -2,7 +2,7 @@
 Project Description:
 - Create a flashcard app for learning words in another language
 
-Completed: 3/21/2025
+Completed: 3/20/2025
 """
 from tkinter import *
 import random
