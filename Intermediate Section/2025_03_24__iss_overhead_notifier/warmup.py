@@ -41,3 +41,32 @@ kanye_button = Button(image=kanye_img, highlightthickness=0, command=get_quote)
 kanye_button.grid(row=1, column=0)
 
 window.mainloop()
+
+"""
+Get sunrise and sunset times for your location API response
+"""
+import requests
+from datetime import datetime
+
+CHI_LATITUDE = 41.8781
+CHI_LONGITUDE = -87.6298
+
+parameters = {
+    "lat": CHI_LATITUDE,
+    "lng": CHI_LONGITUDE,
+    "formatted": 0
+}
+
+response = requests.get(url="https://api.sunrise-sunset.org/json", params=parameters)
+response.raise_for_status()
+
+data = response.json()
+sunrise_hour = data["results"]["sunrise"].split("T")[1].split(":")[0]
+sunset_hour = data["results"]["sunset"].split("T")[1].split(":")[0]
+
+time_now = datetime.now()
+now_hour = time_now.hour
+
+print(sunrise_hour)
+print(sunset_hour)
+print(now_hour)
