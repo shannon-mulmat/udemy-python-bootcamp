@@ -9,8 +9,8 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 BASE_URL =  "https://www.billboard.com/charts/hot-100/"
-SPOTIFY_CLIENT_ID = '1220c10d758e4da5bc7eb3cbef85688f'
-SPOTIFY_CLIENT_SECRET = 'aa17c47b924e4984b729541e5385ba56'
+SPOTIFY_CLIENT_ID = ''
+SPOTIFY_CLIENT_SECRET = ''
 
 # Spotify authentication
 sp = spotipy.Spotify(
