@@ -20,7 +20,7 @@ import pandas as pd
 from my_birthdays import my_birthdays
 
 GMAIL_EMAIL = "smpythonproject@gmail.com"
-GMAIL_APP_PASSWORD = "yarxbvegquzkuxiw"
+GMAIL_APP_PASSWORD = ""
 YAHOO_EMAIL = "smpythonproject@yahoo.com"
 
 existing_birthdays = set()
