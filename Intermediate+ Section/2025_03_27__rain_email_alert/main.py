@@ -17,7 +17,7 @@ CHI_LAT = 41.881832
 CHI_LONG = -87.623177
 WEATHER_APP_URL = "https://api.openweathermap.org/data/2.5/forecast"
 GMAIL_EMAIL = "smpythonproject@gmail.com"
-GMAIL_APP_PASSWORD = "yarxbvegquzkuxiw"
+GMAIL_APP_PASSWORD = ""
 YAHOO_EMAIL = "smpythonproject@yahoo.com"
 
 parameters = {
