@@ -15,7 +15,7 @@ import time
 CHI_LAT = 41.881832
 CHI_LONG = -87.623177
 GMAIL_EMAIL = "smpythonproject@gmail.com"
-GMAIL_APP_PASSWORD = "yarxbvegquzkuxiw"
+GMAIL_APP_PASSWORD = ""
 
 def is_iss_overhead():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
