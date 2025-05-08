@@ -1,6 +1,6 @@
 import smtplib
 GMAIL_EMAIL = "smpythonproject@gmail.com"
-GMAIL_APP_PASSWORD = "yarxbvegquzkuxiw"
+GMAIL_APP_PASSWORD = ""
 YAHOO_EMAIL = "smpythonproject@yahoo.com"
 
 class NotificationManager:
