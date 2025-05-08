@@ -17,7 +17,7 @@ STOCKS_API_KEY = "PT11BEBWJPVQ53AI"
 NEWS_URL = "https://newsapi.org/v2/everything"
 NEWS_API_KEY = "7f630784827648d5b09cc0391b8083ef"
 GMAIL_EMAIL = "smpythonproject@gmail.com"
-GMAIL_APP_PASSWORD = "yarxbvegquzkuxiw"
+GMAIL_APP_PASSWORD = ""
 YAHOO_EMAIL = "smpythonproject@yahoo.com"
 
 def percent_diff(new_value, old_value):
