@@ -3,9 +3,9 @@ import datetime as dt
 import random
 
 GMAIL_EMAIL = "smpythonproject@gmail.com"
-GMAIL_APP_PASSWORD = "yarxbvegquzkuxiw"
+GMAIL_APP_PASSWORD = ""
 YAHOO_EMAIL = "smpythonproject@yahoo.com"
-YAHOO_PASSWORD = "udemy-python-project"
+YAHOO_PASSWORD = ""
 
 today = dt.datetime.now()
 day_of_week = today.weekday()
