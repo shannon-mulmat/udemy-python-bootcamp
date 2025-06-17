@@ -2,7 +2,7 @@
 Project Description:
 - Write a program that will auto-apply to "Easy Apply" jobs on LinkedIn
 
-Date Completed: 6/16/025
+Completed: 6/16/025
 """
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
